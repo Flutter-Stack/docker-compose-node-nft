@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-image-demo-nft",
+  "version": "1.0.0",
+  "description": "nodejs image demo",
+  "author": "kumara suresh <kumara.suresh25@gmail.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
