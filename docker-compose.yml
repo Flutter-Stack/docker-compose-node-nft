@@ -1,11 +1,15 @@
 version: '3'
 
+networks:
+  app-network:
+    # driver: bridge
+
 services:
   nodejs:
     build:
       context: .
       dockerfile: Dockerfile
-    image: nodejs
+    # image: nodejs
     container_name: nodejs-nft
     restart: unless-stopped
     # env_file: .env
@@ -37,10 +41,6 @@ services:
   #     - dbdata:/data/db
   #   networks:
   #     - app-network
-
-networks:
-  app-network:
-    driver: bridge
 
 volumes:
   # dbdata:
