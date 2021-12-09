@@ -1,19 +1,27 @@
 {
-  "name": "nodejs-image-demo-nft",
+  "name": "my-nft",
   "version": "1.0.0",
-  "description": "nodejs image demo",
+  "description": "My first NFT!",
   "author": "kumara suresh <kumara.suresh25@gmail.com>",
   "license": "MIT",
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Flutter-Stack/docker-compose-node-nft.git"
   },
   "keywords": [
     "nodejs"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.1.9",
+    "@openzeppelin/contracts": "^4.4.0",
+    "dotenv": "^10.0.0",
+    "truffle": "^5.4.23"
+  },
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.7.0",
     "nodemon": "^1.18.10"
   }
 }
